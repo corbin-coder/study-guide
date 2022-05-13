@@ -1,0 +1,12 @@
+An algorithm should have:
+1: Correctness
+2: Efficiency
+2a) Time-Complexity, how fast the result is provided by the algorithm
+2b) Space-Complexity, how much ram the algorithm is going to consume
+
+Five steps for solving algorithm design questions
+1: Constraints
+2: Idea Generation
+3: Complexities
+4: Coding
+5: Testing

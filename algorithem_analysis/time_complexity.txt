@@ -1,0 +1,57 @@
+Name-Notation
+Constant-0(1)
+Logarithmic-0(log n)
+Linear-0(n)
+N-LogN-0(n log n)
+Quadratic-0(n^2)
+Polynomial-0(n^c)
+Exponential-(c^m)
+Factorial-0(n!)
+
+
+Constant Time: 0(1)
+If the output is produced in constant time regardless of the input size
+1: Accessing nth element of a list
+2: Push and pop of a stack
+3: Enqueue and remove of a que
+4: Accessing an element of a hash table
+
+
+Linear Time: 0(n)
+If the execution time of the algorithm is directly proportional to the input size
+1: List operations like search element, find min,max
+2: Linked list operations like traversal, find min,max
+
+
+Logarithmic  Time: 0(logn)
+If the execution time is proportional to the logarithm of the input size. Each step of an algorithm, a significant portion of the input is pruned out without traversal
+1: Binary search
+
+
+N-LogN Time: 0(nlog(n))
+If the execution time of an algorithm is proportional to the product of the input size and the logarithm of the input size
+1: Merge-Sort
+2: Quick-Sort
+3: Heap-Sort
+
+
+Quadratic Time: 0(n^2)
+If the execution time of an algorithm is proportional to the square of the input size
+1: Bubble-Sort
+2: Selection-Sort
+3: Insertion-Sort
+
+
+Loops
+Running time of a loop is a product running time of the statement inside the loop and number of iterations in the loop 
+0(n)
+
+
+Nested Loops
+Same as loops multiplied by a product of the size of all the loops.
+0(n^c) where c is number of loops
+For two loops it will be 0(n^2)
+
+
+Logarithmic Statement
+If each iteration the input size is decreased by constant factors

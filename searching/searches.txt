@@ -1,0 +1,3 @@
+Linear Search-Unsorted
+Linear Search-Sorted
+Binary Search (Sorted Input)
