@@ -8,6 +8,7 @@ func more(val1 int, val2 int) bool {
 	return val1 > val2
 }
 
+//best when input is nearly sorted
 func bubbleSort(arr []int) []int {
 	size := len(arr)
 	for i := 0; i < (size - 1); i++ {

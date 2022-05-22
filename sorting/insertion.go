@@ -1,5 +1,7 @@
 package sorting
 
+//must be small input
+//faster than quick and merge sort if input is small
 func insertionSort(arr []int) {
 	size := len(arr)
 	var temp, i, j int
